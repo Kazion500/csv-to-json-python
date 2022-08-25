@@ -1,9 +1,5 @@
 
 import json
-from pprint import pprint as pp
-
-
-
 
 def format_json(csv: str):
     with open(csv, 'r') as f:
